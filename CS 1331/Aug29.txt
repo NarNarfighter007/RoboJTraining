@@ -1,0 +1,38 @@
+8/29
+
+<<     >> (Shifts the binary of the number left or right a place)
+	Ex. 6 >> 1 = 3
+			110 >> 1 = 011 = 3
+			
+			
+ternary operator - 3 inputs
+	Conditional Operator        ?: 
+			Ex. 
+			if (someBool){
+				doSomething();
+			} else {
+				doSomethingElse();
+			}
+				into this:
+				someBool ? doSomething() : doSomethingElse();
+				
+				
+	Pre-increment is going to substitute the new value of the variable, while post increment does the ++ but substitutes the old value
+		Ex.
+			total = 5;
+			y = 2 + total++;
+			y returns 7 (but total DOES equal 6)
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			total = 5;
+			y = 2 + ++total;
+			y returns 8
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Weird Ex.
+			y = 2 + x++ + x;	//2 + 5 + 6
+			y returns 13
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			y = 2 + ++x + x;	//2 + 6 + 6
+			y returns 14
+			
+			
+^ is exclusive or

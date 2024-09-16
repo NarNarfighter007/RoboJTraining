@@ -1,0 +1,17 @@
+8/27
+
+Integer values
+	byte is 8 bit
+	short is 16-bit
+	int is 32-bit (smaller range, smaller memory)
+	long is 64-bit (bigger range, more memory)
+	
+Floating values
+	float 32-bit decimal
+	double 64-bit decimal (double the precision of the float)
+
+Constants
+	final does not mean constant
+	final is IMMUTABLE (cannot be changed)
+	
+Enclose singular characters in '', NOT ""

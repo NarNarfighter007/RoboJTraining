@@ -1,0 +1,22 @@
+8/22
+
+Interpreted vs. Compiled
+	Interpreted --> Line-by-line; write once, run anywhere
+		e.g. Python, PHP
+		There is an "interpreter" between python code and the processor to convert it (translater)
+		It is costly and slow, but easier to implement
+
+	Compiled --> Language is compiled SEPARATELY prior to runtime
+		Much quicker, and the "translation" executes once before running
+		However, compiled programs only work on the processor compiled on
+		e.g. C, C++
+
+Java is BOTH!
+	Compiles java programs through javac
+	Simple byte code is run through an interpreter (simple math, memory management, etc.)
+	Java class file precompiles
+	Then java class file is run through a JRE (Java Runtime Enviroment)
+	JRE translates the byte code to machine code
+
+Syntax is grammar, spelling, language structure
+Semantics is what what the line of code means
